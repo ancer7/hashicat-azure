@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/afristore/network/azurerm"
-  version = "1.1.1"
+  version = "3.4.0"
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   # insert required variables here
 }
